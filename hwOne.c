@@ -2,6 +2,6 @@
 
 void main(void) {
 
-	printf("Terrell");
+	printf("Goodbye, I finished my CS 2560 HW1");
 
 }
