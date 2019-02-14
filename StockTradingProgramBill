@@ -29,5 +29,5 @@ void main ()
 			
 	double joeAmount = joeSoldAmount - joePaid - brokerPay - brokerSoldPay;
 	
-	printf(joeAmount);
+	printf("$", joeAmount);
 }
