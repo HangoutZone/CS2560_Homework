@@ -1,20 +1,14 @@
-/*
- * OceanLevels.c
- *
- *  Created on: Feb 14, 2019
- *      Author: Terrell
- */
-
 #include <stdio.h>
+#include <stdlib.h>
 
 void main ()
 {
-	double x = 1.5 * 5;
-	double y = 1.5 * 7;
-	double z = 1.5 * 10;
+	float x = 1.5 * 5;
+	float y = 1.5 * 7;
+	float z = 1.5 * 10;
 
-	printf("millimeters higher in 5 years" , x);
-	printf("millimeters higher in 7 years" , y);
-	printf("millimeters higher in 10 years" , z);
+	printf("millimeters higher in 5 years %f\n" , x);
+	printf("millimeters higher in 7 years %f\n" , y);
+	printf("millimeters higher in 10 years %f\n" , z);
 
 }
