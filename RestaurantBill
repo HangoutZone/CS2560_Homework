@@ -1,11 +1,5 @@
-/*
- * RestaurantBill.c
- *
- *  Created on: Feb 14, 2019
- *      Author: Terrell
- */
-
 #include <stdio.h>
+#include <stdlib.h>
 
 void main ()
 {
@@ -21,10 +15,10 @@ void main ()
 
 	float totalBill = charge + taxAmount + tipAmount;
 
-	printf("prints  the meal cost, tax amount, tip amount, and total bill. Respectivly");
-	printf("$", charge);
-	printf("$", taxAmount);
-	printf("$", tipAmount);
-	printf("$", totalBill);
+	printf("prints  the meal cost, tax amount, tip amount, and total bill. Respectivly\n");
+	printf("$%f\n", charge);
+	printf("$%f\n", taxAmount);
+	printf("$%f\n", tipAmount);
+	printf("$%f\n", totalBill);
 
 }
