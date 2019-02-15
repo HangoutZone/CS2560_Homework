@@ -1,33 +1,26 @@
-/*
- * StockTradingProgramBill.c
- *
- *  Created on: Feb 14, 2019
- *      Author: Terrell
- */
-
 #include <stdio.h>
 
 void main ()
 {
-	double joe = 1000;
-	
-	double joeShare = 45.50;
-	
-	double stockbrokerPercent = 2 * 0.01;
-	
-	double joeSold = 1000;
-	
-	double joeSoldShare = 56.90;
-	
-	double joePaid = joe * joeShare;
-	
-	double brokerPay = stockbrokerPercent * joePaid;
-			
-	double joeSoldAmount = joeSold * joeSoldShare;
-	
-	double brokerSoldPay = stockbrokerPercent * joeSoldAmount;
-			
-	double joeAmount = joeSoldAmount - joePaid - brokerPay - brokerSoldPay;
-	
-	printf("$", joeAmount);
+	float joe = 1000;
+
+	float joeShare = 45.50;
+
+	float stockbrokerPercent = 2 * 0.01;
+
+	float joeSold = 1000;
+
+	float joeSoldShare = 56.90;
+
+	float joePaid = joe * joeShare;
+
+	float brokerPay = stockbrokerPercent * joePaid;
+
+	float joeSoldAmount = joeSold * joeSoldShare;
+
+	float brokerSoldPay = stockbrokerPercent * joeSoldAmount;
+
+	float joeAmount = joeSoldAmount - joePaid - brokerPay - brokerSoldPay;
+
+	printf("$ %f", joeAmount);
 }
